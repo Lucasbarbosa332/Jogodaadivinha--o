@@ -1,6 +1,11 @@
 # Jogodaadivinhação
  Qual numero entre 1 a mil voce consegue adivinhar?
 
+## Lucas barbosa
+ 
+<h3 align='center'> ❓1️⃣🤔  Voce e bom em adivinhar jogo craido para tentar se desafiar onde o terminal ira pensar em numeros aleatorios e voce tera que tentar descobrir </h3>
+
+## ❓1️⃣🤔 Contexto
 
 
 

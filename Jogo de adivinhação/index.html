@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Adivinhação</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Adivinhação</h1>
+        <p>Escolha o nível de dificuldade:</p>
+        <label>
+            <input type="radio" name="nivel" value="1" checked> Nível 1 (1 a 100)
+        </label>
+        <label>
+            <input type="radio" name="nivel" value="2"> Nível 2 (1 a 1000)
+        </label>
+        <button onclick="iniciarJogo()">Iniciar Jogo</button>
+        <hr>
+        <p>Estou pensando em um número entre <span id="inicio-selecionado"></span> e <span id="fim-selecionado"></span>.</p>
+        <input type="number" id="palpite" placeholder="Digite seu palpite" disabled>
+        <button id="verificar" onclick="verificarPalpite()" disabled>Verificar</button>
+        <button id="dica" onclick="obterDica()" disabled>Dica</button>
+        <p id="mensagem"></p>
+        <p id="dica-texto"></p>
+        <p id="tentativas-restantes"></p>
+        <progress id="progresso-tentativas" value="0" max="10"></progress>
+        <button onclick="reiniciarJogo()">Reiniciar Jogo</button>
+        <button onclick="desistir()">Desistir</button>
+    </div>
+
+    <script src="/js.js"></script>
+</body>
+</html>
+
